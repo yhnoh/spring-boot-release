@@ -39,8 +39,10 @@
     </dependencies>
 
     <build>
+<!--
     	<finalName>${file.name}</finalName>
     	<directory>${file.path}</directory>
+-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -58,6 +60,7 @@
     </build>
 
     <!-- 프로파일 마다 속성 지정 가능-->
+<!--
     <profiles>
     	<profile>
     		<id>NORMAL</id>
@@ -74,4 +77,5 @@
     		</properties>
     	</profile>
     </profiles>
+-->
 </project>
